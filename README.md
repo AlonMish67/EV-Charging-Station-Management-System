@@ -7,7 +7,7 @@ As the demand for electric vehicles grows, efficient management of charging stat
 
 ## ✨ Key Features
 * **Optimized Data Retrieval:** Utilizes **Binary Search Trees (BST)** for rapid search, insertion, and deletion of charging station records and vehicle data.
-* **Smart Queue Management:** Implements **Queues (FIFO)** to simulate and manage waiting lines for available charging ports fairly and efficiently.
+* **Smart Queue Management:** Implements **Queues** to simulate and manage waiting lines for available charging ports fairly and efficiently.
 * **Robust Resource Management:** Heavily relies on **Dynamic Memory Allocation** to ensure the system scales up or down smoothly without memory leaks.
 * **CLI Interface:** A clear command-line interface for easy interaction with the database.
 
