@@ -23,5 +23,6 @@ As the demand for electric vehicles grows, efficient management of charging stat
 ## 🧩 Architecture & Modularity
 This system is built with strict adherence to **Modular Programming** principles, ensuring high code quality and readability:
 * **Separation of Concerns:** The codebase is divided into logical, independent modules. Data structures (BST, Queues) have their own dedicated header (`.h`) and implementation (`.c`) files, completely decoupled from the main application logic.
+* 
 * **Maintainability & Scalability:** The modular design allows for easy testing, debugging, and future expansion (such as adding new vehicle types or a graphical interface) without altering the core system.
-* **Encapsulation:** Internal data structures and memory management routines are hidden behind clear, well-documented API functions, maintaining clean boundaries across the project.
+
