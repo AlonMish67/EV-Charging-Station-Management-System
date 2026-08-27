@@ -14,13 +14,3 @@ As the demand for electric vehicles grows, efficient management of charging stat
 ## 🛠️ Built With
 * **Language:** C
 * **Core Concepts:** Data Structures (BST, Linked Lists, Queues), Pointers, Dynamic Memory Management.
-
-## 🚀 Getting Started
-
-### Prerequisites
-Make sure you have a C compiler (like GCC) installed on your machine.
-
-### Installation & Compilation
-1. Clone the repo:
-   ```sh
-   git clone [https://github.com/your-username/electric-cars-db.git](https://github.com/your-username/electric-cars-db.git)
