@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+      <FILENAME>menuFuncs.c</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>validLicenseInput</FUNCTION>
+    <DECORATED>validLicenseInput</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+      <FILENAME>menuFuncs.c</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>validLicenseInput</FUNCTION>
+    <DECORATED>validLicenseInput</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+      <FILENAME>menuFuncs.c</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>stationNameInput</FUNCTION>
+    <DECORATED>stationNameInput</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+      <FILENAME>menuFuncs.c</FILENAME>
+      <LINE>96</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>stationNameInput</FUNCTION>
+    <DECORATED>stationNameInput</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+      <FILENAME>menuFuncs.c</FILENAME>
+      <LINE>863</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>closeSt</FUNCTION>
+    <DECORATED>closeSt</DECORATED>
+    <FUNCLINE>845</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

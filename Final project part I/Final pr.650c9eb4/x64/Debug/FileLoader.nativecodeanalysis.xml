@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+      <FILENAME>FileLoader.c</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'newStation'.</DESCRIPTION>
+    <FUNCTION>loadStationsToTree</FUNCTION>
+    <DECORATED>loadStationsToTree</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>83</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newStation' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>FileLoader.c</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newStation' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+      <FILENAME>carQueue.c</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'station'. </DESCRIPTION>
+    <FUNCTION>assignNextCompatibleCarFromQueue</FUNCTION>
+    <DECORATED>assignNextCompatibleCarFromQueue</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>carQueue.c</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'station' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>carQueue.c</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!station')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>carQueue.c</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>carQueue.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!station-&gt;carQueue')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alon1\source\repos\Final project part I\</FILEPATH>
+        <FILENAME>carQueue.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'station' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

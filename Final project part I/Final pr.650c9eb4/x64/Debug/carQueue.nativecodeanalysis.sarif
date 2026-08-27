@@ -1,0 +1,225 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'station'. "
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/carqueue.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alon1/source/repos/Final project part I/carQueue.c"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 13,
+                  "endLine": 86,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "assignNextCompatibleCarFromQueue",
+                  "decoratedName": "assignNextCompatibleCarFromQueue",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/alon1/source/repos/Final project part I/carQueue.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "'station' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/alon1/source/repos/Final project part I/carQueue.c"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!station')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/alon1/source/repos/Final project part I/carQueue.c"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/alon1/source/repos/Final project part I/carQueue.c"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!station->carQueue')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/alon1/source/repos/Final project part I/carQueue.c"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'station' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35211.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/carqueue.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c7fad15922767f411143fe71a6323eb43e1d155914333c1d9082d309052d8145"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/carqueue.h"
+          },
+          "hashes": {
+            "sha-256": "cfb3d8d34a37cbbe1599987d9b567acc2f2d80f760d7f36281254e2f108f8219"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/car.h"
+          },
+          "hashes": {
+            "sha-256": "bc265cc8bda7cf8cbf30c793337f3454f197dbc705204e8ee6adbfb9b174b800"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/stations.h"
+          },
+          "hashes": {
+            "sha-256": "79bb1c602e730673923fc9208ed7e1d71579ef7487658c4afe2981d49e422c7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/ports.h"
+          },
+          "hashes": {
+            "sha-256": "de83a8560ef940a850918568acce76da6aa9f1c1f53d8fb141d2adae0fd280b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/date.h"
+          },
+          "hashes": {
+            "sha-256": "229457014dc5bb7fb346ccf227f942bb357e9a69f5e5c1bbf579fb0bfa98c91f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/carbst.h"
+          },
+          "hashes": {
+            "sha-256": "ab626e3ed588244d16f3fc6d1ba8e47e6baf27a2dbb70cecaf3625c451b09f04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/alon1/source/repos/final project part i/errors.h"
+          },
+          "hashes": {
+            "sha-256": "e6b664ce0d3792bac2819d803cbef121c6b12e21d8dfd25a46630da30b9df780"
+          }
+        }
+      ]
+    }
+  ]
+}
